@@ -1,0 +1,21 @@
+# Create or edit .gitignore
+cat >> .gitignore << EOF
+
+# Ignore vector database
+chroma/
+*.db
+
+# Ignore data files
+# data/
+# *.pdf
+*.md
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment
+.env
+venv/
+EOF
