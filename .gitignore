@@ -8,7 +8,7 @@ chroma/
 # Ignore data files
 # data/
 # *.pdf
-*.md
+# *.md
 
 # Ignore Python cache
 __pycache__/
